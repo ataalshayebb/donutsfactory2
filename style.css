@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(75, 30, 30);
+  }
+
+  p{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.imm{
+
+    height: 150px;
+    width: 250px;
+}
+h4{
+    color: white;
+    font-size: 34px;
+    text-align: start;
+    margin-left: 10%;
+}
+
+.main{
+   gap: 5%;
+    display: flex ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.card{
+
+    width: 250px;
+    height: 150px;
+    background-color:rgb(21, 32, 41);
+    margin-bottom: 4%;
+}
+
+.frm {
+     font-size: 24px;
+    border-width: 2px;
+    border-color:whitesmoke; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin-left: 9%;
+}
+
+
+  
+
+#info{
+    
+    font-size: 30px;
+    color:white ;
+}
+
+
+.row {
+    display: flex;
+}
+.frm {
+    flex: 1;
+}
+#info {
+    flex: 1;
+    margin-left: 20px; /* Adjust as needed for spacing */
+}
